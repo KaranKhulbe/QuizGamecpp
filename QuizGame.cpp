@@ -134,10 +134,10 @@ int playQuiz(){
         else{
             score=score+0;
         }
-        cout<<"Q10. Which one of the following state comes in North"<<endl;
-        cout<<"(a) Delhi (b) Banglore (c) Chennai (d)Kerla"<<endl;
+        cout<<"Q10. Which one of the following city comes in North"<<endl;
+        cout<<"(a) Bangalore (b) Delhi (c) Chennai (d)Kochi"<<endl;
         cin>>option;
-        if(option=='a' || option=='A'){
+        if(option=='b' || option=='B'){
             score=score+1;
         }
         else{
